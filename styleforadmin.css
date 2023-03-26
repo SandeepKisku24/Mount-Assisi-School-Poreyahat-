@@ -1,0 +1,31 @@
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    height: 100px;
+    border: 2px solid skyblue;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+}
+.content{
+    margin-top: 50px;
+}
+.text{
+    background-color: #f6c453;
+}
+.control{
+    background-color: #e1eedd;
+}
+.password{
+    background-color: #5bccf6;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20%;
+}

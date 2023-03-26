@@ -1,0 +1,173 @@
+
+.top1{
+  display: flex;
+}
+.body_part_of_school{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  text-align: justify;
+}
+
+.school1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+}
+.text_part_school{
+  width: 55%
+}
+.image_building{
+  margin-left: 5%;
+  width: 40%;
+  height: 300px;
+}
+.image_building img{
+  width: 100%;
+  height: 100%;
+}
+.heading_school_part{
+  font-size: 2em;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #ccc3ba;
+  color: #69443c;
+}
+.former_principal_part{
+  margin-top: 5%;
+}
+.line1{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.principal{
+  width: 30%;
+  border: 1px solid black;
+  height: 240px;
+  border-radius: 10px;
+}
+.principal img{
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
+.p_name{
+  text-align: center;
+}
+.patron_part{
+  margin-top: 5%;
+}
+.prospectus{
+  width: 40%;
+  border-radius: 10px;
+  height: 240px;
+}
+.prospectus img{
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+}
+.vision
+{
+  margin-top: 5%;
+}
+.content_vision{
+  display: flex;
+  flex-direction: row;
+
+}
+.cir{
+  width: 30%;
+  height: 200px;
+}
+.cir img{
+  height: 100%;
+  width: 100%;
+}
+.traditions{
+  margin-top: 5%;
+}
+.tradition1{
+  display: flex;
+  flex-direction: row;
+}
+.text_tradition{
+  width: 60%;
+}
+.tradition_image{
+  width: 40%;
+  height: 240px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.tradition_image img {
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 480px){
+    .school1{
+      display: flex;
+      flex-direction: column;
+
+    }
+    .text_part_school{
+      width: 100%;
+    }
+    .image_building{
+      width: 90%;
+    }
+    .image_building img{
+      border-radius: 5px;
+    }
+    .line1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .principal{
+      width: 90%;
+    }
+    #patron{
+      padding-top: 5%;
+    }
+    .st_francis{
+      width: 50%;
+    }
+    .prospectus{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 3%;
+    }
+    .prospectus img{
+      height: 80%;
+    }
+    .content_vision{
+      display: block;
+    }
+    .content_vision img{
+      margin-left: 20% !important;
+      margin-right: auto !important;
+      width: 60% !important;
+      height: 100% !important ;
+    }
+    .curriculum{
+      margin-top: 1%;
+    }
+    .cir{
+      width: 100%;
+    }
+    .tradition1{
+      display: block;
+    }
+    .text_tradition{
+      width: 100%;
+    }
+    .tradition_image{
+      width: 100%;
+    }
+}

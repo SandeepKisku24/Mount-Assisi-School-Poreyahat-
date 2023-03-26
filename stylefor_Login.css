@@ -1,0 +1,22 @@
+body{
+    background-color: #f0f2f5;
+}
+.biggerContainer{
+    margin: 10%,20%;
+    padding: 10px;
+    border: 2px;
+}
+.container{
+    width: 50%;
+    padding-left: 10%;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+fieldset{
+    width: 30%;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+}
