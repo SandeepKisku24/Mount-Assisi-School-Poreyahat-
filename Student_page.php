@@ -1,7 +1,6 @@
 <?php
 session_start();
-$connect = mysqli_connect("localhost","u655737406_mountassisi","Assisi@0322");
-         $db = mysqli_select_db($connect,"u655737406_82929363268292");
+
     $query = "select * from student";
     $query_run = mysqli_query($connection,$query);
     $row = mysqli_fetch_assoc($query_run);
