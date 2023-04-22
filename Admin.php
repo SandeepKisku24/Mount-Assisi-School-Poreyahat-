@@ -1,7 +1,6 @@
 <?php
  session_start();
- $connect = mysqli_connect("localhost","u655737406_mountassisi","Assisi@0322");
-         $db = mysqli_select_db($connect,"u655737406_82929363268292");
+
     if(isset($_POST['log'])){
         echo"<script>
         alert('Login Succesful');
