@@ -1,6 +1,5 @@
 <?php
-         $connect = mysqli_connect("localhost","u655737406_mountassisi","Assisi@0322");
-         $db = mysqli_select_db($connect,"u655737406_82929363268292");
+         
          $query= "select * from nboard";
          $query_run = mysqli_query($connect,$query);
          $disp = mysqli_fetch_assoc($query_run);
