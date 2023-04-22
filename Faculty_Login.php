@@ -1,6 +1,5 @@
 <?php
-$connection = mysqli_connect("localhost","u655737406_mountassisi","Assisi@0322");
-$db = mysqli_select_db($connection,"u655737406_82929363268292");
+
 if(isset($_POST['log'])){
     $query = "select * from admin where username ='$_POST[username]' AND password = '$_POST[password]'";
     $chose1 = filter_input(INPUT_POST, 'logas', FILTER_SANITIZE_STRING);
